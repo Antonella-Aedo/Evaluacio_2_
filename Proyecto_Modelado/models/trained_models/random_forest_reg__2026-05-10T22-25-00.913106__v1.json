@@ -1,0 +1,31 @@
+{
+  "model_name": "random_forest_reg",
+  "version": "v1",
+  "params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "metrics": {
+    "mse": 3.3924099000000005
+  },
+  "data_source": "C:\\Users\\marti\\Downloads\\Eva_Parcial_2\\Proyecto_Modelado\\notebooks\\dataset_chile_cancer_piel.csv",
+  "date": "2026-05-10T22:25:01.583306",
+  "python_version": "3.13.9",
+  "sklearn_version": "1.7.2"
+}

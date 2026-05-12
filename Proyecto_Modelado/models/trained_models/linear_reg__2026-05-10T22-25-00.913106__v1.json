@@ -1,0 +1,18 @@
+{
+  "model_name": "linear_reg",
+  "version": "v1",
+  "params": {
+    "copy_X": true,
+    "fit_intercept": true,
+    "n_jobs": null,
+    "positive": false,
+    "tol": 1e-06
+  },
+  "metrics": {
+    "mse": 3.3099087761447676
+  },
+  "data_source": "C:\\Users\\marti\\Downloads\\Eva_Parcial_2\\Proyecto_Modelado\\notebooks\\dataset_chile_cancer_piel.csv",
+  "date": "2026-05-10T22:25:01.105677",
+  "python_version": "3.13.9",
+  "sklearn_version": "1.7.2"
+}
