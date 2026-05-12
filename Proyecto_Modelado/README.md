@@ -18,9 +18,6 @@ Resumen reproducible y modular para entrega académica.
 1. Crear y activar un entorno virtual (recomendado). Python 3.10+.
 2. Instalar dependencias:
 
-```powershell
-pip install -r requirements.txt
-```
 
 ## Reproducibilidad y ejecución
 - Ejecute los notebooks desde la raíz del repositorio para que las rutas relativas funcionen correctamente.
@@ -40,11 +37,11 @@ jupyter nbconvert --to notebook --execute notebooks/03_model_evaluation.ipynb --
 ```
 
 ## Notebooks clave
-- `01_exploratory_analysis.ipynb`: carga y análisis descriptivo.
-- `02_supervised_modeling.ipynb`: preprocesamiento y entrenamiento inicial.
-- `03_model_evaluation.ipynb`: evaluación cross-validated y guardado de métricas/plots en `results/`.
-- `04_hyperparameter_optimization.ipynb`: búsqueda de hiperparámetros y exportación de `cv_results_`.
-- `05_final_analysis.ipynb`: resumen, integración y análisis final.
+- `executed_01_exploratory_analysis.ipynb`: carga y análisis descriptivo.
+- `executed_02_supervised_modeling.ipynb`: preprocesamiento y entrenamiento inicial.
+- `executed_03_model_evaluation.ipynb`: evaluación cross-validated y guardado de métricas/plots en `results/`.
+- `_executed_04_hyperparameter_optimization.ipynb`: búsqueda de hiperparámetros y exportación de `cv_results_`.
+- `executed_05_final_analysis.ipynb`: resumen, integración y análisis final.
 
 ## Artefactos guardados
 - Gráficos: `results/plots/*.png`
